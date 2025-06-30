@@ -1,0 +1,5 @@
+*.cpp linguist-vendored
+*.c linguist-vendored
+*.cmake linguist-vendored
+*.swift linguist-vendored
+*.html linguist-vendored
