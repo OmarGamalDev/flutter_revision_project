@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_revision_project/Flutter%20basics/flutter_basics.dart';
+import 'package:flutter_revision_project/Birthday%20Card%20App/birthday_card.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: FlutterBasics(),
+      home: BirthdayCard(),
     );
   }
 }
