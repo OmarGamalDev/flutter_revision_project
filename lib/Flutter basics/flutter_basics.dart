@@ -24,14 +24,137 @@ class FlutterBasics extends StatelessWidget {
           ),
         ),
       ),
-      body: Center(
-        child: Text(
-          "Hello World",
-          style: TextStyle(
-            color: Colors.red,
-            fontSize: 45,
-            fontWeight: FontWeight.bold,
-          ),
+      body: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisSize: MainAxisSize.max,
+          children: [
+            Container(
+              height: 100,
+              width: 100,
+                decoration: BoxDecoration(
+                color: Colors.cyanAccent,
+              ),
+              child: Center(
+                child: Text(
+                  "Hel",
+                  style: TextStyle(
+                    color: Colors.red,
+                    fontSize: 45,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              decoration: BoxDecoration(
+                color: Colors.cyanAccent,
+              ),
+              child: Center(
+                child: Text(
+                  "Hel",
+                  style: TextStyle(
+                    color: Colors.red,
+                    fontSize: 45,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              decoration: BoxDecoration(
+                color: Colors.cyanAccent,
+              ),
+              child: Center(
+                child: Text(
+                  "Hel",
+                  style: TextStyle(
+                    color: Colors.red,
+                    fontSize: 45,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisSize: MainAxisSize.max,
+              children: [
+                Container(
+              height: 100,
+              width: 100,
+                decoration: BoxDecoration(
+                color: Colors.cyanAccent,
+              ),
+              child: Center(
+                child: Text(
+                  "Hel",
+                  style: TextStyle(
+                    color: Colors.red,
+                    fontSize: 45,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              decoration: BoxDecoration(
+                color: Colors.cyanAccent,
+              ),
+              child: Center(
+                child: Text(
+                  "Hel",
+                  style: TextStyle(
+                    color: Colors.red,
+                    fontSize: 45,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              decoration: BoxDecoration(
+                color: Colors.cyanAccent,
+              ),
+              child: Center(
+                child: Text(
+                  "Hel",
+                  style: TextStyle(
+                    color: Colors.red,
+                    fontSize: 45,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+            ),
+            Container(
+              height: 90,
+              width: 90,
+              decoration: BoxDecoration(
+                color: Colors.cyanAccent,
+              ),
+              child: Center(
+                child: Text(
+                  "Hel",
+                  style: TextStyle(
+                    color: Colors.red,
+                    fontSize: 45,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+            ),
+              ],
+            )
+          ],
         ),
       ),
     );
