@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 class BirthdayCard extends StatelessWidget {
   const BirthdayCard({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
