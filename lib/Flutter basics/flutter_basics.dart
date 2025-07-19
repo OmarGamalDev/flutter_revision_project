@@ -29,9 +29,8 @@ class FlutterBasics extends StatelessWidget {
           "Hello World",
           style: TextStyle(
             color: Colors.red,
-            fontSize: 20,
+            fontSize: 45,
             fontWeight: FontWeight.bold,
-            backgroundColor: Colors.amber,
           ),
         ),
       ),
