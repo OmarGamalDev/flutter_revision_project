@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class CustomButton extends StatefulWidget {
+class CustomButton extends StatelessWidget {
   const CustomButton({
     super.key,
     required this.text,
@@ -12,11 +12,6 @@ class CustomButton extends StatefulWidget {
   final VoidCallback onPressed;
   final double width, height;
   @override
-  State<CustomButton> createState() => _CustomButtonState();
-}
-
-class _CustomButtonState extends State<CustomButton> {
-  @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.only(left: 8, right: 8, bottom: 10),
@@ -26,12 +21,12 @@ class _CustomButtonState extends State<CustomButton> {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(12),
           ),
-          maximumSize: Size(widget.width, widget.height),
+          maximumSize: Size(width, height),
         ),
-        onPressed: widget.onPressed,
+        onPressed: onPressed,
         child: Center(
           child: Text(
-            widget.text,
+            text,
             style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
           ),
         ),
