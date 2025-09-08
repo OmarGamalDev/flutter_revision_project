@@ -4,12 +4,12 @@ class CustomButton extends StatefulWidget {
   const CustomButton({
     super.key,
     required this.text,
-    required this.onpressed,
+    required this.onPressed,
     required this.width,
     required this.height,
   });
   final String text;
-  final VoidCallback onpressed;
+  final VoidCallback onPressed;
   final double width, height;
   @override
   State<CustomButton> createState() => _CustomButtonState();
@@ -28,7 +28,7 @@ class _CustomButtonState extends State<CustomButton> {
           ),
           maximumSize: Size(widget.width, widget.height),
         ),
-        onPressed: widget.onpressed,
+        onPressed: widget.onPressed,
         child: Center(
           child: Text(
             widget.text,
@@ -39,3 +39,5 @@ class _CustomButtonState extends State<CustomButton> {
     );
   }
 }
+
+
